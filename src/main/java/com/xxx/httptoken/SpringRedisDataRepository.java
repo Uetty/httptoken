@@ -1,4 +1,4 @@
-package com.wanships.httptoken;
+package com.xxx.httptoken;
 
 import java.util.ArrayList;
 import java.util.Iterator;

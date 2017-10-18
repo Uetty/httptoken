@@ -28,12 +28,12 @@ spring-redis.xml
 		<property name="connectionFactory" ref="connectionFactory" />
 	</bean>
 
-	<bean id="tokenStrategy" class="com.wanships.framework.RequestParamTokenStrategy"></bean>
-	<bean id="tokenDataRepository" class="com.wanships.framework.SpringRedisDataRepository">
+	<bean id="tokenStrategy" class="com.xxx.framework.RequestParamTokenStrategy"></bean>
+	<bean id="tokenDataRepository" class="com.xxx.framework.SpringRedisDataRepository">
 		<property name="template" ref="redisTemplate"></property>
 		<property name="projectPrefix" value="myprojectname:"></property>
 	</bean>
-	<bean class="com.wanships.framework.TokenConstitutor">
+	<bean class="com.xxx.framework.TokenConstitutor">
 		<property name="dataRepository" ref="tokenDataRepository"></property>
 		<property name="tokenStrategy" ref="tokenStrategy"></property>
 	</bean>

@@ -1,4 +1,4 @@
-package com.wanships.httptoken;
+package com.xxx.httptoken;
 
 /**
  * Hello world!
