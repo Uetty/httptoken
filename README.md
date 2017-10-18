@@ -1,0 +1,2 @@
+# httptoken
+仿spring session，实现分布式access_token登录认证并且可存储用户信息及项目全局信息
